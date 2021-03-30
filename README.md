@@ -16,8 +16,9 @@
 * адаптивная верстка
 * отзывчивый интерфейс
 
+#### Основные ссылки по проекту:
 * [Ссылка на проект в GitHub](https://github.com/myasoedas/russian-travel)
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-* [Сайт для оптимизации картинок,](https://tinypng.com/) чтобы сайт загружался быстрее.
+* [Ссылка для оптимизации картинок,](https://tinypng.com/) чтобы сайт загружался быстрее.
 
 #### Начало работы над проектом: 31.03.2021

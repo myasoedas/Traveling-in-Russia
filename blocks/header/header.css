@@ -1,0 +1,16 @@
+/*Самый верхний блок - шапка сайта. Содержит логотип и переключатели языка RU EN*/
+.header {
+  margin: 0; /*обнулить внешние отступы*/
+  padding: 16px 16px 0 16px; /*обнулить внутрение оступы*/
+  background: #2A2C2F; /*цвет фона - темный*/
+
+  display: flex; /*Определил блок header как флекс контейнер*/
+  flex-direction: row; /*выстроить блоки в линию по горизонтали слева на право*/
+  justify-content: space-between; /*прижать блоки к левому и правому краю, равномерно распределив по ширине контейнера*/
+  align-items: flex-start; /*выровнять блоки по центру по вертикали*/
+
+  font-family: 'Inter', Arial, sans-serif; /*Использовать шрифт Inter*/
+  color: #FFFFFF; /*Цвет шрифта - белый*/
+  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов в Safari и во всех браузерах на платформе Chromium*/
+  -moz-osx-font-smoothing: grayscale; /*сглаживание шрифтов в Mozilla Firefox*/
+}

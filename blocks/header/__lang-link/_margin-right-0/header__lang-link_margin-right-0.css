@@ -1,0 +1,4 @@
+/*модификатор - убрать внешний правый отступ*/
+.header__lang-link_margin-right-0 {
+  margin-right: 0;
+}

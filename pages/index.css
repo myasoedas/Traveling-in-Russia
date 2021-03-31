@@ -1,8 +1,30 @@
 @import url(../vendor/normalize.css);
 /*Подключил к index.css файл normalize.css, удалил link для normalize.css в index.html*/
 
-@import url(../vendor/fonts/font.css); /*подключил файл font.css в котором подключается шрифт Inter из папки fonts*/
 
 @import url(../blocks/root/root.css);
 /*Подключил к index.css файл root.css для редактирования css параметров body*/
 /*Код красной границы вокруг блоков находится в root.css*/
+
+@import url(../vendor/fonts/font.css); /*подключил файл font.css в котором подключается шрифт Inter из папки fonts*/
+
+
+@import url(../blocks/page/page.css); /*подключил класс основоного блока html страницы, в котором находятся все остальные блоки*/
+
+
+/*_________________________________________________________________________________________________
+
+  Блок header - шапка html страницы
+  _________________________________________________________________________________________________*/
+
+@import url(../blocks/header/header.css); /*Самый верхний блок - шапка сайта. Содержит логотип и переключатели языка RU EN*/
+
+@import url(../blocks/header/__logo/header__logo.css); /*Логотип в шапке сайта - слева вверху*/
+
+@import url(../blocks/header/__lang-link/header__lang-link.css); /*Переключатель языка RU EN*/
+
+@import url(../blocks/header/__lang-menu/header__lang-menu.css); /*Меню в шапке для переключения языка Ru или En*/
+
+@import url(../blocks/header/__lang-link/_margin-right-0/header__lang-link_margin-right-0.css); /*Модификатор - убрать внешний правый отступ*/
+
+@import url(../blocks/header/__lang-link/_text-underline/header__lang-link_text-underline.css); /*Модификатор - добавить нижнее подчеркивание для текста*/

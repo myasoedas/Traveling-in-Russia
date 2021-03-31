@@ -1,0 +1,20 @@
+/*Ссылка для переключения языка*/
+.header__lang-link {
+  width: 22px; /*ширина блока*/
+  height: 20px; /*высота блока*/
+
+  margin: 0 18px 0 0; /*внешний отступ справа 18px*/
+  padding: 0; /*убрать внутренние отступы*/
+
+  text-decoration: none; /*убрать подчеркивание ссылки*/
+  color: inherit; /*цвет шрифта взять у родителя (указан белый цвет текста для блока header)*/
+
+  /*Настройки отображения текста*/
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+

@@ -1,0 +1,42 @@
+.lead__title {
+  margin: 0 16px 0 16px;
+  padding: 0;
+
+  color: inherit; /*цвет шрифта взять у родителя (указан белый цвет текста для блока header)*/
+
+  /*Настройки отображения текста*/
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
+@media (min-width: 768px) {
+  .lead__title {
+    margin-right: 24px;
+    margin-left: 24px;
+
+    font-size: 96px;
+    line-height: 100px;
+  }
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1024px до 1279px*/
+@media (min-width: 1024px) {
+  .lead__title {
+    margin-right: 152px;
+    margin-left: 152px;
+  }
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1280px до бесконечности*/
+@media (min-width: 1280px) {
+  .lead__title {
+    margin-right: 280px;
+    margin-left: 280px;
+  }
+}
+

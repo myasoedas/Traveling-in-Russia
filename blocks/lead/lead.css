@@ -1,0 +1,35 @@
+.lead {
+  margin: 0;
+  padding: 48px 0 0 0;
+  background: #2A2C2F;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: 'Inter', Arial, sans-serif;
+  color: #FFFFFF;
+
+  /*Сглаживание шрифтов*/
+  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов в Safari и во всех браузерах на платформе Chromium*/
+  -moz-osx-font-smoothing: grayscale; /*сглаживание шрифтов в Mozilla Firefox*/
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1024px до 1279px*/
+@media (min-width: 1024px) {
+  .lead {
+    padding-top: 48px;
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1280px до бесконечности*/
+@media (min-width: 1280px) {
+  .lead {
+    padding-top: 56px;
+    padding-right: 148px;
+    padding-left: 148px;
+  }
+}

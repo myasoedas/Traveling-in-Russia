@@ -28,3 +28,23 @@
 @import url(../blocks/header/__lang-link/_margin-right-0/header__lang-link_margin-right-0.css); /*Модификатор - убрать внешний правый отступ*/
 
 @import url(../blocks/header/__lang-link/_text-underline/header__lang-link_text-underline.css); /*Модификатор - добавить нижнее подчеркивание для текста*/
+
+
+@import url(../blocks/content/content.css); /*Блок main - контейнер основного контента*/
+
+
+/*_________________________________________________________________________________________________
+
+  Блок lead - Путешествия по России
+  _________________________________________________________________________________________________*/
+
+  @import url(../blocks/lead/lead.css); /*Блок lead*/
+
+  @import url(../blocks/lead/__title/lead__title.css); /*Заголовок блока lead*/
+
+  @import url(../blocks/lead/__subtitle/lead__subtitle.css); /*Подзаголовок блока lead*/
+
+  @import url(../blocks/lead/__image/lead__image.css); /*Изображение нижнего бокрового места в поезде с наложенным изображением маршрута*/
+
+  @import url(../blocks/lead/__caption/lead__caption.css); /*Текст под изображением: ВАША ПОЛКА - ВЕРХНЯЯ*/
+

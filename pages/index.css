@@ -61,3 +61,13 @@
   @import url(../blocks/intro/__text/intro__text.css); /*Текст p*/
 
   @import url(../blocks/intro/__list/intro__list.css); /*Список достоинств отдыха в России ul*/
+
+
+  /*_________________________________________________________________________________________________
+
+  Блок photo-grid - Галлерея фотографий о путешествиях по Росссии
+  _________________________________________________________________________________________________*/
+
+  @import url(../blocks/photo-grid/photo-grid.css); /*Блок photo-grid*/
+
+  @import url(../blocks/photo-grid/__item/photo-grid__item.css); /*Изображение в grid сетке*/

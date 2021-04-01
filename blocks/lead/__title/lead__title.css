@@ -27,16 +27,16 @@
 /*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1024px до 1279px*/
 @media (min-width: 1024px) {
   .lead__title {
-    margin-right: 152px;
-    margin-left: 152px;
+    margin-right: 104px;
+    margin-left: 104px;
   }
 }
 
 /*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1280px до бесконечности*/
 @media (min-width: 1280px) {
   .lead__title {
-    margin-right: 280px;
-    margin-left: 280px;
+    margin-right: 132px;
+    margin-left: 132px;
   }
 }
 

@@ -48,3 +48,16 @@
 
   @import url(../blocks/lead/__caption/lead__caption.css); /*Текст под изображением: ВАША ПОЛКА - ВЕРХНЯЯ*/
 
+
+/*_________________________________________________________________________________________________
+
+  Блок intro - Чего мы там не видели?
+  _________________________________________________________________________________________________*/
+
+  @import url(../blocks/intro/intro.css); /*Блок intro*/
+
+  @import url(../blocks/intro/__title/intro__title.css); /*Заголовок h2*/
+
+  @import url(../blocks/intro/__text/intro__text.css); /*Текст p*/
+
+  @import url(../blocks/intro/__list/intro__list.css); /*Список достоинств отдыха в России ul*/

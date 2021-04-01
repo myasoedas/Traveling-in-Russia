@@ -1,0 +1,44 @@
+.intro {
+  margin: 0;
+  padding: 64px 16px 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+
+  /*Подключение шрифта*/
+  font-family: 'Inter', Arial, sans-serif;
+  color: #FFFFFF;
+
+  /*Сглаживание шрифтов*/
+  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов в Safari и во всех браузерах на платформе Chromium*/
+  -moz-osx-font-smoothing: grayscale; /*сглаживание шрифтов в Mozilla Firefox*/
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
+@media (min-width: 768px) {
+  .intro {
+    padding-top: 88px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1024px до 1279px*/
+@media (min-width: 1024px) {
+  .intro {
+    padding-top: 92px;
+    padding-right: 286px;
+    padding-left: 48px;
+  }
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1280px до бесконечности*/
+@media (min-width: 1280px) {
+  .intro {
+    padding-right: 442px;
+    padding-left: 148px;
+  }
+}

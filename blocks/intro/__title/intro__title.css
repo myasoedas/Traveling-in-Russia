@@ -1,0 +1,22 @@
+.intro__title {
+  margin: 0;
+  padding: 0;
+
+  color: inherit; /*цвет шрифта взять у родителя (указан белый цвет текста для блока header)*/
+
+  /*Настройки отображения текста*/
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
+@media (min-width: 768px) {
+  .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+  }
+}

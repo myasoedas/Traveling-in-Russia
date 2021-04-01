@@ -71,3 +71,29 @@
   @import url(../blocks/photo-grid/photo-grid.css); /*Блок photo-grid*/
 
   @import url(../blocks/photo-grid/__item/photo-grid__item.css); /*Изображение в grid сетке*/
+
+
+   /*_________________________________________________________________________________________________
+
+  Блок places - Куршская коса и др. статьи о путешествиях по Росссии
+  _________________________________________________________________________________________________*/
+
+  @import url(../blocks/places/places.css); /*Блок places Grid_1*/
+
+  @import url(../blocks/places/place/place.css); /*Блок place Grid_2*/
+
+  @import url(../blocks/places/place/__title/place__title.css); /*Заголовок блока place*/
+
+  @import url(../blocks/places/place/__website/place__website.css); /*Блок с адресом сайта, описывающего место России для путешествия*/
+
+  @import url(../blocks/places/place/__url-heading/place__url-heading.css); /*URL - настройки отображения*/
+
+  @import url(../blocks/places/place/__link/place__link.css); /*Адрес сайта - настройки отображения*/
+
+  @import url(../blocks/places/place/__image/place__image.css); /*Иллюстрация в блоке place*/
+
+  @import url(../blocks/places/place/__article/place__article.css); /*блок в котором размещаются параграфы*/
+
+  @import url(../blocks/places/place/__paragraph/place__paragraph.css); /*Текст параграфа в блоке place*/
+
+

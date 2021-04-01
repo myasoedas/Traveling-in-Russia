@@ -1,0 +1,49 @@
+.place {
+  margin: 50px 0 0 0;
+  padding: 0;
+
+  font-family: 'Inter', Arial, sans-serif;
+  color: #FFFFFF;
+
+  /*Сглаживание шрифтов*/
+  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов в Safari и во всех браузерах на платформе Chromium*/
+  -moz-osx-font-smoothing: grayscale; /*сглаживание шрифтов в Mozilla Firefox*/
+
+  display: grid;
+  justify-content: start;
+  align-content: start;
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-auto-flow: row; /*автоматическое добавление неявных строк*/
+  gap: 32px 0; /*зазор между строками в сетке*/
+}
+
+.place:first-of-type {
+  margin-top: 0;
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
+@media (min-width: 768px) {
+  .place {
+    margin-top: 73px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px 28px; /*зазор: строка столбец*/
+  }
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1024px до 1279px*/
+@media (min-width: 1024px) {
+  .place {
+    margin-top: 80px;
+    column-gap: 32px; /*зазор: столбец*/
+  }
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1280px до бесконечности*/
+@media (min-width: 1280px) {
+  .place {
+    column-gap: 40px; /*зазор: столбец*/
+  }
+}
+

@@ -16,6 +16,13 @@
   line-height: 20px;
   letter-spacing: 0em;
   text-align: right;
+
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 /*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/

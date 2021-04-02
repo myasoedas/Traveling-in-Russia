@@ -1,0 +1,25 @@
+.footer__copyright {
+  margin: 48px auto 24px 0;
+  padding: 0;
+
+  color: inherit; /*Унаследовать цвет текста у родителя*/
+
+  /*Настройки отображения текста*/
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
+@media (min-width: 768px) {
+  .footer__copyright {
+    margin: 0;
+    padding: 0;
+
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

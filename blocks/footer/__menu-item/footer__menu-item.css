@@ -1,15 +1,15 @@
-.footer__menu_item {
+.footer__menu-item {
   margin: 0;
   padding: 32px 0 0 0;
 }
 
-.footer__menu_item:first-of-type {
+.footer__menu-item:first-of-type {
   padding-top: 0;
 }
 
 /*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
 @media (min-width: 768px) {
-  .footer__menu_item {
+  .footer__menu-item {
     padding-top: 0;
     padding-left: 18px;
 
@@ -18,7 +18,7 @@
     align-items: flex-start;
   }
 
-  .footer__menu_item:first-of-type {
+  .footer__menu-item:first-of-type {
     padding-left: 0;
   }
 }

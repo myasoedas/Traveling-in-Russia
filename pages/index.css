@@ -118,7 +118,7 @@
 
   @import url(../blocks/footer/__menu/footer__menu.css); /*Меню блока footer*/
 
-  @import url(../blocks/footer/__menu/_item/footer__menu_item.css); /*Элемент блока меню*/
+  @import url(../blocks/footer/__menu-item/footer__menu-item.css); /*Элемент блока меню*/
 
   @import url(../blocks/footer/__link/footer__link.css); /*Ссылка в блоке меню*/
 

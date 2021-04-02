@@ -25,7 +25,7 @@
 
 @import url(../blocks/header/__lang-menu/header__lang-menu.css); /*Меню в шапке для переключения языка Ru или En*/
 
-@import url(../blocks/header/__lang-link/_margin-right-0/header__lang-link_margin-right-0.css); /*Модификатор - убрать внешний правый отступ*/
+@import url(../blocks/header/__lang-link/_margin-right/header__lang-link_margin-right.css); /*Модификатор - убрать внешний правый отступ*/
 
 @import url(../blocks/header/__lang-link/_text-underline/header__lang-link_text-underline.css); /*Модификатор - добавить нижнее подчеркивание для текста*/
 
@@ -82,21 +82,21 @@
 
   @import url(../blocks/places/places.css); /*Блок places Grid_1*/
 
-  @import url(../blocks/places/place/place.css); /*Блок place Grid_2*/
+  @import url(../blocks/place/place.css); /*Блок place Grid_2*/
 
-  @import url(../blocks/places/place/__title/place__title.css); /*Заголовок блока place*/
+  @import url(../blocks/place/__title/place__title.css); /*Заголовок блока place*/
 
-  @import url(../blocks/places/place/__website/place__website.css); /*Блок с адресом сайта, описывающего место России для путешествия*/
+  @import url(../blocks/place/__website/place__website.css); /*Блок с адресом сайта, описывающего место России для путешествия*/
 
-  @import url(../blocks/places/place/__url-heading/place__url-heading.css); /*URL - настройки отображения*/
+  @import url(../blocks/place/__url-heading/place__url-heading.css); /*URL - настройки отображения*/
 
-  @import url(../blocks/places/place/__link/place__link.css); /*Адрес сайта - настройки отображения*/
+  @import url(../blocks/place/__link/place__link.css); /*Адрес сайта - настройки отображения*/
 
-  @import url(../blocks/places/place/__image/place__image.css); /*Иллюстрация в блоке place*/
+  @import url(../blocks/place/__image/place__image.css); /*Иллюстрация в блоке place*/
 
-  @import url(../blocks/places/place/__article/place__article.css); /*блок в котором размещаются параграфы*/
+  @import url(../blocks/place/__article/place__article.css); /*блок в котором размещаются параграфы*/
 
-  @import url(../blocks/places/place/__paragraph/place__paragraph.css); /*Текст параграфа в блоке place*/
+  @import url(../blocks/place/__paragraph/place__paragraph.css); /*Текст параграфа в блоке place*/
 
 
   /*_________________________________________________________________________________________________

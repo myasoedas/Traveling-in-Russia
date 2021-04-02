@@ -1,0 +1,79 @@
+.cover {
+  /*включить относительное позиционирование, сделать блок cover родителем для вложенных блоков и элементов*/
+  position: relative;
+
+  margin: 66px 0 0 0;
+  padding: 0;
+
+  background: no-repeat;
+  background-image: url(../../images/cover-trains.jpg); /*Добавить фоновое изображение*/
+  background-size: 100% auto; /*Растянуть изображение по ширине с сохраненем пропорций изображения*/
+  background-position: center;
+
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: 'Inter', Arial, sans-serif;
+  color: #FFFFFF;
+
+  text-decoration: none;
+
+  /*Сглаживание шрифтов*/
+  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов в Safari и во всех браузерах на платформе Chromium*/
+  -moz-osx-font-smoothing: grayscale; /*сглаживание шрифтов в Mozilla Firefox*/
+
+  z-index: 0; /*фоновое изображение по оси z - самое нижнее*/
+}
+
+/*Добавить оверлей как псевдоэлемент*/
+.cover::after {
+  content: ""; /*Чтобы оверлей отображался ему обязательно нужно задать content*/
+  position: absolute;
+
+  /*задаю нулевые размеры, чтобы обверлей принял размеры родителя*/
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  /*задаю цвет фона оверлея*/
+  background: #2A2C2F;
+
+  /*Задать прозрачность*/
+  opacity: 0.3;
+  transition: opacity 0.5s ease-in-out;
+
+  /*Задать положение по оси z*/
+  z-index: 1; /*оверлей поверх фонового изображения*/
+}
+
+/*Поведение псевдоэлемента (оверлея) при наведении курсора мышки*/
+.cover:hover::after {
+  opacity: 0.8;
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
+@media (min-width: 768px) {
+  .cover {
+    margin-top: 90px;
+  }
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1024px до 1279px*/
+@media (min-width: 1024px) {
+  .cover {
+    margin-top: 92px;
+  }
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1280px до бесконечности*/
+@media (min-width: 1280px) {
+  .cover {
+    margin-right: 48px;
+    margin-left: 48px;
+  }
+}

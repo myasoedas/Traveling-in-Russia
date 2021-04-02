@@ -1,0 +1,47 @@
+.cover__title {
+  margin: 33px auto 16px auto;
+  padding: 0;
+
+  width: 250px;
+  height: 70px;
+
+  color: inherit; /*цвет шрифта взять у родителя (указан белый цвет текста для блока header)*/
+
+  /*Настройки отображения текста*/
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  z-index: 2; /*заголовок поверх оверлея по оси z*/
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
+@media (min-width: 768px) {
+  .cover__title {
+    margin-top: 115px;
+    margin-bottom: 32px;
+    width: 560px;
+    height: 152px;
+
+    /*Настройки отображения текста*/
+    font-size: 72px;
+    line-height: 76px;
+  }
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1024px до 1279px*/
+@media (min-width: 1024px) {
+  .cover__title {
+    margin-top: 195px;
+  }
+}
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1280px до бесконечности*/
+@media (min-width: 1280px) {
+  .cover__title {
+    margin-top: 245px;
+  }
+}

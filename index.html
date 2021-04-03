@@ -9,32 +9,25 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./pages/index.css"> <!-- для index.html создал в папке pages index.css чтобы было по Nested БЭМ-->
+    <link rel="stylesheet" href="./pages/index.css">
 
     <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
-    <!-- Добавил файл favicon.ico в папку images и подключил его к файлу index.html чтобы он отображался на вкладке браузера для красоты -->
+
 
     <title>Путешествия по России</title>
 </head>
-<body class="root"> <!-- Главный блок - занимает всю область экрана -->
+<body class="root">
 
-  <div class="page"> <!-- Блок страницы с контентом - занимает определенную в ТЗ область экрана и содержит все блоки HTML страницы-->
+  <div class="page">
 
-    <!--________________________________________
+    <header class="header">
 
-        Блок header - шапка html страницы
-        ________________________________________-->
-
-    <header class="header"> <!-- Блок - шапка сайта. Содержит логотип и переключатели языка RU EN-->
-
-      <!-- Логотип Россия слева в шапке страницы -->
       <img
         class="header__logo"
         src="./images/header-logo.svg"
         alt="Логотип - эскиз карты России белого цвета, а за ним надпись жирным белым шрифтом России и все это на черном фоне"
       >
 
-      <!-- Переключатели языка RU EN -->
       <ul class="header__lang-menu">
         <li><a class="header__lang-link header__lang-link_text-underline" href="#" target="_self">Ru</a></li>
         <li><a class="header__lang-link header__lang-link_margin-right" href="#" target="_self">En</a></li>
@@ -42,13 +35,7 @@
 
     </header>
 
-    <!-- Блок основного контена -->
     <main class="content">
-
-      <!--________________________________________
-
-          Блок lead - Путешествия по России
-          ________________________________________-->
 
         <section class="lead">
 
@@ -61,11 +48,6 @@
           <p class="lead__caption">ваша полка — верхняя</p>
 
         </section>
-
-        <!--________________________________________
-
-            Блок intro - Чего мы там не видели?
-            ________________________________________-->
 
         <section class="intro">
 
@@ -89,10 +71,6 @@
 
         </section>
 
-        <!--____________________________________________________________
-
-            Блок photo-grid - Галлерея фотографий о путешествиях по Росссии
-            ________________________________________________________________-->
 
         <figure class="photo-grid">
 
@@ -122,11 +100,6 @@
 
         </figure>
 
-
-        <!--____________________________________________________________
-
-            Блок places - Куршская коса
-            ________________________________________________________________-->
 
         <section class="places">
 
@@ -270,10 +243,6 @@
 
         </section>
 
-        <!--____________________________________________________________
-
-            Блок cover - До Байкалах на собаках.
-            ____________________________________________________________-->
 
         <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
 
@@ -285,30 +254,21 @@
 
         </a>
 
-
-
-
-        <!--____________________________________________________________
-
-            Блок footer - Подвал страницы с блоком ссылок.
-            _____________________________________________________________-->
-
-        <footer class="footer">
-
-          <ul class="footer__menu">
-            <li class="footer__menu-item"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-            <li class="footer__menu-item"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-            <li class="footer__menu-item"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-            <li class="footer__menu-item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-            <li class="footer__menu-item"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-          </ul>
-
-          <p class="footer__copyright">© 2021. <a class="footer__link footer__copyright" href="https://github.com/myasoedas" target="_blank">Мясоед Александр</a></p>
-
-        </footer>
-
-
     </main>
+
+    <footer class="footer">
+
+      <ul class="footer__menu">
+        <li class="footer__menu-item"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+        <li class="footer__menu-item"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+        <li class="footer__menu-item"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+        <li class="footer__menu-item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+        <li class="footer__menu-item"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+      </ul>
+
+      <p class="footer__copyright">© 2021. <a class="footer__link footer__copyright" href="https://github.com/myasoedas" target="_blank">Мясоед Александр</a></p>
+
+    </footer>
 
   </div>
 

@@ -2,9 +2,7 @@
   margin: 0 auto 33px auto;
   padding: 0;
 
-  width: 250px;
-  height: 48px;
-
+  max-width: 250px;
   color: inherit; /*цвет шрифта взять у родителя (указан белый цвет текста для блока header)*/
 
   /*Настройки отображения текста*/
@@ -22,8 +20,7 @@
 @media (min-width: 768px) {
   .cover__subtitle {
     margin-bottom: 115px;
-    width: 335px;
-    height: 66px;
+    max-width: 335px;
 
     /*Настройки отображения текста*/
     font-size: 18px;

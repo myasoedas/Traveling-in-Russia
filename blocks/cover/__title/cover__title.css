@@ -2,8 +2,7 @@
   margin: 33px auto 16px auto;
   padding: 0;
 
-  width: 250px;
-  height: 70px;
+  max-width: 250px;
 
   color: inherit; /*цвет шрифта взять у родителя (указан белый цвет текста для блока header)*/
 
@@ -23,8 +22,8 @@
   .cover__title {
     margin-top: 115px;
     margin-bottom: 32px;
-    width: 560px;
-    height: 152px;
+
+    max-width: 560px;
 
     /*Настройки отображения текста*/
     font-size: 72px;

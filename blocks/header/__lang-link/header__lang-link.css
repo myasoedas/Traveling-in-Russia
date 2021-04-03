@@ -1,7 +1,6 @@
 /*Ссылка для переключения языка*/
 .header__lang-link {
-  width: 22px; /*ширина блока*/
-  height: 20px; /*высота блока*/
+  max-width: 22px; /*ширина блока*/
 
   margin: 0 18px 0 0; /*внешний отступ справа 18px*/
   padding: 0; /*убрать внутренние отступы*/
@@ -30,7 +29,6 @@
   .header__lang-link {
     width: 30px;
     height: 28px;
-
 
     font-size: 24px;
     font-weight: 400;

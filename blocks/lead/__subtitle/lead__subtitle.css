@@ -1,6 +1,9 @@
 .lead__subtitle {
-  margin: 16px 16px 0 16px;
+  margin: 16px auto 0 auto;
   padding: 0;
+
+  width: 288px;
+  height: 40px;
 
   color: inherit; /*цвет шрифта взять у родителя (указан белый цвет текста для блока header)*/
 
@@ -16,25 +19,12 @@
 /*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
 @media (min-width: 768px) {
   .lead__subtitle {
-    margin: 32px 64px 0 64px;
+    margin-top: 32px;
+
+    width: 640px;
+    height: 72px;
 
     font-size: 30px;
     line-height: 36px;
-  }
-}
-
-/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1024px до 1279px*/
-@media (min-width: 1024px) {
-  .lead__subtitle {
-    margin-right: 144px;
-    margin-left: 144px;
-  }
-}
-
-/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1280px до бесконечности*/
-@media (min-width: 1280px) {
-  .lead__subtitle {
-    margin-right: 172px;
-    margin-left: 172px;
   }
 }

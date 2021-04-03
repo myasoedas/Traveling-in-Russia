@@ -13,10 +13,15 @@
   justify-content: start;
   align-content: start;
 
-  grid-template-rows: 1fr;
+  grid-template-rows: auto 46px 1fr auto;
   grid-template-columns: 1fr;
-  grid-auto-flow: row; /*автоматическое добавление неявных строк*/
+  grid-auto-flow: dense; /*использовать пространство контейнера максимально компактно*/
   gap: 32px 0; /*зазор между строками в сетке*/
+  grid-template-areas:
+  "title"
+  "website"
+  "image"
+  "article";
 }
 
 .place:first-of-type {
@@ -27,8 +32,12 @@
 @media (min-width: 768px) {
   .place {
     margin-top: 73px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
     gap: 48px 28px; /*зазор: строка столбец*/
+    grid-template-areas:
+    "title website"
+    "image article";
   }
 }
 

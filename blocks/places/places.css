@@ -1,26 +1,26 @@
 .places {
-  margin: 0;
-  padding: 64px 0 0 0;
+  margin: 64px 0 0 0;
+  padding: 0;
   background: #2A2C2F;
 }
 
 /*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
 @media (min-width: 768px) {
   .places {
-    padding: 88px 24px 0 24px;
+    margin: 88px 24px 0 24px;
   }
 }
 
 /*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1024px до 1279px*/
 @media (min-width: 1024px) {
   .places {
-    padding: 92px 48px 0 48px;
+    margin: 92px 48px 0 48px;
   }
 }
 
 /*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1280px до бесконечности*/
 @media (min-width: 1280px) {
   .places {
-    padding: 92px 148px 0 148px;
+    margin: 92px 148px 0 148px;
   }
 }

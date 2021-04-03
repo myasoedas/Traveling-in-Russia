@@ -71,8 +71,12 @@
 
         </section>
 
+        <!-- Заменил figure на section и получил замечание от валидатора за то, что нет заголовка.
+          Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+          Дизайнер должен был предусмотреть заголовок для блока, но этого видимо не сделал. Свой заголовок добавлять не стал, так как это нарушит условие задания.
+          Думаю, что фотогаллерея это логическое продолжение блока intro, именно в секцию интро нужно добавить галлерею воспользовавшись div-->
 
-        <figure class="photo-grid">
+        <section class="photo-grid">
 
           <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Летний вид из окна поезда на Байкал">
 
@@ -98,7 +102,7 @@
 
           <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Гора Ергаки, белый густые облака переваливаются с одной стороны горы на другую.">
 
-        </figure>
+        </section>
 
 
         <section class="places">
@@ -244,27 +248,33 @@
         </section>
 
 
-        <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+        <section class="cover">
 
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
 
-          <p class="cover__subtitle">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-          </p>
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
 
-        </a>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+            </p>
+
+          </a>
+
+        </section>
 
     </main>
 
     <footer class="footer">
 
-      <ul class="footer__menu">
-        <li class="footer__menu-item"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-        <li class="footer__menu-item"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-        <li class="footer__menu-item"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-        <li class="footer__menu-item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-        <li class="footer__menu-item"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-      </ul>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-item"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer__menu-item"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer__menu-item"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__menu-item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer__menu-item"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>
 
       <p class="footer__copyright">© 2021. <a class="footer__link footer__copyright" href="https://github.com/myasoedas" target="_blank">Мясоед Александр</a></p>
 

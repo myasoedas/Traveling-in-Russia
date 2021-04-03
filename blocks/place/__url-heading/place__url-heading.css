@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 
-  color: #AAAAAA; /*Унаследовать цвет текста у родителя*/
+  color: #AAAAAA;
 
   /*Настройки отображения текста*/
   font-size: 12px;

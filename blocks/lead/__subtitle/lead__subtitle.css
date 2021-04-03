@@ -2,9 +2,7 @@
   margin: 16px auto 0 auto;
   padding: 0;
 
-  width: 288px;
-  height: 40px;
-
+  max-width: 288px;
   color: inherit; /*цвет шрифта взять у родителя (указан белый цвет текста для блока header)*/
 
   /*Настройки отображения текста*/
@@ -20,9 +18,7 @@
 @media (min-width: 768px) {
   .lead__subtitle {
     margin-top: 32px;
-
-    width: 640px;
-    height: 72px;
+    max-width: 640px;
 
     font-size: 30px;
     line-height: 36px;

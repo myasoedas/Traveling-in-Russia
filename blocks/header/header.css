@@ -23,3 +23,11 @@
     padding: 28px 24px 0 24px;
   }
 }
+
+/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1024px до 1279px*/
+@media (min-width: 1024px) {
+  .header {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}

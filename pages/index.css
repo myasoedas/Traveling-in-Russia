@@ -25,7 +25,7 @@
 
 @import url(../blocks/header/__lang-menu/header__lang-menu.css); /*Меню в шапке для переключения языка Ru или En*/
 
-@import url(../blocks/header/__lang-link/_margin-right/header__lang-link_margin-right.css); /*Модификатор - убрать внешний правый отступ*/
+@import url(../blocks/header/__lang-menu-item/header__lang-menu-item.css); /*Элемент списка меню*/
 
 @import url(../blocks/header/__lang-link/_text-underline/header__lang-link_text-underline.css); /*Модификатор - добавить нижнее подчеркивание для текста*/
 

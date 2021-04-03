@@ -1,6 +1,6 @@
 /*Блок меню для выбора языка страницы Ru или En*/
 .header__lang-menu {
-  margin: 14px 0 8px 0; /*внешний оступ сверху 14px, снизу 8px*/
+  margin: 14px 0 8px auto; /*внешний оступ сверху 14px, снизу 8px*/
   padding: 0; /*обнулить внутренние отступы*/
   list-style: none; /*убрать маркеры*/
 
@@ -13,6 +13,7 @@
 /*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
 @media (min-width: 768px) {
   .header__lang-menu {
-    margin: 18px 0 6px 0;
+    margin-top: 18px;
+    margin-bottom: 6px;
   }
 }

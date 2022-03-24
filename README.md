@@ -21,7 +21,7 @@
 * GitHub - веб-сервис для хостинга IT-проектов и их совместной разработки с использованием системы контроля версий Git
 
 #### Основные ссылки по проекту:
-* [Ссылка на проект, в моем портфолио](https://alexproit.ru/portfolio/russian-travel/)
+* [Ссылка на web страницу с готовой работой](https://alexproit.ru/portfolio/russian-travel/)
 * [Ссылка на проект в GitHub](https://github.com/myasoedas/russian-travel)
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 * [Ссылка для оптимизации картинок,](https://tinypng.com/) чтобы сайт загружался быстрее.
